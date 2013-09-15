@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A222858417E537AB00117223 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A222858317E537AB00117223 /* AVFoundation.framework */; };
+		A222858617E5388200117223 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A222858517E5388200117223 /* yay.mp3 */; };
+		A222858717E5388200117223 /* yay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A222858517E5388200117223 /* yay.mp3 */; };
+		A2C65EE117E2617F00767435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C65EE017E2617F00767435 /* Foundation.framework */; };
+		A2C65EE317E2617F00767435 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C65EE217E2617F00767435 /* CoreGraphics.framework */; };
+		A2C65EE517E2617F00767435 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C65EE417E2617F00767435 /* UIKit.framework */; };
+		A2C65EEB17E2617F00767435 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2C65EE917E2617F00767435 /* InfoPlist.strings */; };
+		A2C65EED17E2617F00767435 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C65EEC17E2617F00767435 /* main.m */; };
+		A2C65EF117E2617F00767435 /* D1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C65EF017E2617F00767435 /* D1AppDelegate.m */; };
+		A2C65EF417E2617F00767435 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2C65EF217E2617F00767435 /* Main.storyboard */; };
+		A2C65EF717E2617F00767435 /* D1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C65EF617E2617F00767435 /* D1ViewController.m */; };
+		A2C65EF917E2617F00767435 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2C65EF817E2617F00767435 /* Images.xcassets */; };
+		A2C65F0017E2617F00767435 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C65EFF17E2617F00767435 /* XCTest.framework */; };
+		A2C65F0117E2617F00767435 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C65EE017E2617F00767435 /* Foundation.framework */; };
+		A2C65F0217E2617F00767435 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C65EE417E2617F00767435 /* UIKit.framework */; };
+		A2C65F0A17E2617F00767435 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2C65F0817E2617F00767435 /* InfoPlist.strings */; };
+		A2C65F0C17E2617F00767435 /* BPJBubblesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C65F0B17E2617F00767435 /* BPJBubblesTests.m */; };
+		A2C65F1617E2850000767435 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C65F1517E2850000767435 /* CoreMotion.framework */; };
+		A2C65F1917E286D300767435 /* CMMotionManager+Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C65F1817E286D300767435 /* CMMotionManager+Shared.m */; };
+		A2C65F1A17E286D300767435 /* CMMotionManager+Shared.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C65F1817E286D300767435 /* CMMotionManager+Shared.m */; };
+		A2E34E4B17E37271003B0E4B /* UIColor+RandomCustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E34E4A17E37271003B0E4B /* UIColor+RandomCustomColor.m */; };
+		A2E34E4C17E37271003B0E4B /* UIColor+RandomCustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E34E4A17E37271003B0E4B /* UIColor+RandomCustomColor.m */; };
+		A2E34E4F17E3B609003B0E4B /* BPJBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E34E4E17E3B609003B0E4B /* BPJBubble.m */; };
+		A2E34E5017E3B609003B0E4B /* BPJBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E34E4E17E3B609003B0E4B /* BPJBubble.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2C65F0317E2617F00767435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2C65ED517E2617F00767435 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2C65EDC17E2617F00767435;
+			remoteInfo = BPJBubbles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A222858317E537AB00117223 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A222858517E5388200117223 /* yay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yay.mp3; sourceTree = "<group>"; };
+		A2C65EDD17E2617F00767435 /* BPJBubbles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPJBubbles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C65EE017E2617F00767435 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A2C65EE217E2617F00767435 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A2C65EE417E2617F00767435 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A2C65EE817E2617F00767435 /* BPJBubbles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BPJBubbles-Info.plist"; sourceTree = "<group>"; };
+		A2C65EEA17E2617F00767435 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2C65EEC17E2617F00767435 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2C65EEE17E2617F00767435 /* BPJBubbles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BPJBubbles-Prefix.pch"; sourceTree = "<group>"; };
+		A2C65EEF17E2617F00767435 /* D1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D1AppDelegate.h; sourceTree = "<group>"; };
+		A2C65EF017E2617F00767435 /* D1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D1AppDelegate.m; sourceTree = "<group>"; };
+		A2C65EF317E2617F00767435 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2C65EF517E2617F00767435 /* D1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = D1ViewController.h; sourceTree = "<group>"; };
+		A2C65EF617E2617F00767435 /* D1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = D1ViewController.m; sourceTree = "<group>"; };
+		A2C65EF817E2617F00767435 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A2C65EFE17E2617F00767435 /* BPJBubblesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BPJBubblesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C65EFF17E2617F00767435 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A2C65F0717E2617F00767435 /* BPJBubblesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BPJBubblesTests-Info.plist"; sourceTree = "<group>"; };
+		A2C65F0917E2617F00767435 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A2C65F0B17E2617F00767435 /* BPJBubblesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPJBubblesTests.m; sourceTree = "<group>"; };
+		A2C65F1517E2850000767435 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A2C65F1717E286D300767435 /* CMMotionManager+Shared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CMMotionManager+Shared.h"; sourceTree = "<group>"; };
+		A2C65F1817E286D300767435 /* CMMotionManager+Shared.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CMMotionManager+Shared.m"; sourceTree = "<group>"; };
+		A2E34E4917E37271003B0E4B /* UIColor+RandomCustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomCustomColor.h"; sourceTree = "<group>"; };
+		A2E34E4A17E37271003B0E4B /* UIColor+RandomCustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomCustomColor.m"; sourceTree = "<group>"; };
+		A2E34E4D17E3B609003B0E4B /* BPJBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPJBubble.h; sourceTree = "<group>"; };
+		A2E34E4E17E3B609003B0E4B /* BPJBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPJBubble.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2C65EDA17E2617F00767435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A222858417E537AB00117223 /* AVFoundation.framework in Frameworks */,
+				A2C65F1617E2850000767435 /* CoreMotion.framework in Frameworks */,
+				A2C65EE317E2617F00767435 /* CoreGraphics.framework in Frameworks */,
+				A2C65EE517E2617F00767435 /* UIKit.framework in Frameworks */,
+				A2C65EE117E2617F00767435 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C65EFB17E2617F00767435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C65F0017E2617F00767435 /* XCTest.framework in Frameworks */,
+				A2C65F0217E2617F00767435 /* UIKit.framework in Frameworks */,
+				A2C65F0117E2617F00767435 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2C65ED417E2617F00767435 = {
+			isa = PBXGroup;
+			children = (
+				A2C65EE617E2617F00767435 /* BPJBubbles */,
+				A2C65F0517E2617F00767435 /* BPJBubblesTests */,
+				A2C65EDF17E2617F00767435 /* Frameworks */,
+				A2C65EDE17E2617F00767435 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2C65EDE17E2617F00767435 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2C65EDD17E2617F00767435 /* BPJBubbles.app */,
+				A2C65EFE17E2617F00767435 /* BPJBubblesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2C65EDF17E2617F00767435 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A222858317E537AB00117223 /* AVFoundation.framework */,
+				A2C65F1517E2850000767435 /* CoreMotion.framework */,
+				A2C65EE017E2617F00767435 /* Foundation.framework */,
+				A2C65EE217E2617F00767435 /* CoreGraphics.framework */,
+				A2C65EE417E2617F00767435 /* UIKit.framework */,
+				A2C65EFF17E2617F00767435 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2C65EE617E2617F00767435 /* BPJBubbles */ = {
+			isa = PBXGroup;
+			children = (
+				A2E34E4917E37271003B0E4B /* UIColor+RandomCustomColor.h */,
+				A2E34E4A17E37271003B0E4B /* UIColor+RandomCustomColor.m */,
+				A2C65EEF17E2617F00767435 /* D1AppDelegate.h */,
+				A2C65EF017E2617F00767435 /* D1AppDelegate.m */,
+				A2C65EF217E2617F00767435 /* Main.storyboard */,
+				A2C65EF517E2617F00767435 /* D1ViewController.h */,
+				A2C65EF617E2617F00767435 /* D1ViewController.m */,
+				A2E34E4D17E3B609003B0E4B /* BPJBubble.h */,
+				A2E34E4E17E3B609003B0E4B /* BPJBubble.m */,
+				A2C65F1717E286D300767435 /* CMMotionManager+Shared.h */,
+				A2C65F1817E286D300767435 /* CMMotionManager+Shared.m */,
+				A2C65EF817E2617F00767435 /* Images.xcassets */,
+				A2C65EE717E2617F00767435 /* Supporting Files */,
+			);
+			path = BPJBubbles;
+			sourceTree = "<group>";
+		};
+		A2C65EE717E2617F00767435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A222858517E5388200117223 /* yay.mp3 */,
+				A2C65EE817E2617F00767435 /* BPJBubbles-Info.plist */,
+				A2C65EE917E2617F00767435 /* InfoPlist.strings */,
+				A2C65EEC17E2617F00767435 /* main.m */,
+				A2C65EEE17E2617F00767435 /* BPJBubbles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2C65F0517E2617F00767435 /* BPJBubblesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2C65F0B17E2617F00767435 /* BPJBubblesTests.m */,
+				A2C65F0617E2617F00767435 /* Supporting Files */,
+			);
+			path = BPJBubblesTests;
+			sourceTree = "<group>";
+		};
+		A2C65F0617E2617F00767435 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2C65F0717E2617F00767435 /* BPJBubblesTests-Info.plist */,
+				A2C65F0817E2617F00767435 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2C65EDC17E2617F00767435 /* BPJBubbles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C65F0F17E2617F00767435 /* Build configuration list for PBXNativeTarget "BPJBubbles" */;
+			buildPhases = (
+				A2C65ED917E2617F00767435 /* Sources */,
+				A2C65EDA17E2617F00767435 /* Frameworks */,
+				A2C65EDB17E2617F00767435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BPJBubbles;
+			productName = BPJBubbles;
+			productReference = A2C65EDD17E2617F00767435 /* BPJBubbles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2C65EFD17E2617F00767435 /* BPJBubblesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2C65F1217E2617F00767435 /* Build configuration list for PBXNativeTarget "BPJBubblesTests" */;
+			buildPhases = (
+				A2C65EFA17E2617F00767435 /* Sources */,
+				A2C65EFB17E2617F00767435 /* Frameworks */,
+				A2C65EFC17E2617F00767435 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2C65F0417E2617F00767435 /* PBXTargetDependency */,
+			);
+			name = BPJBubblesTests;
+			productName = BPJBubblesTests;
+			productReference = A2C65EFE17E2617F00767435 /* BPJBubblesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2C65ED517E2617F00767435 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = D1;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Brad;
+				TargetAttributes = {
+					A2C65EFD17E2617F00767435 = {
+						TestTargetID = A2C65EDC17E2617F00767435;
+					};
+				};
+			};
+			buildConfigurationList = A2C65ED817E2617F00767435 /* Build configuration list for PBXProject "BPJBubbles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2C65ED417E2617F00767435;
+			productRefGroup = A2C65EDE17E2617F00767435 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2C65EDC17E2617F00767435 /* BPJBubbles */,
+				A2C65EFD17E2617F00767435 /* BPJBubblesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2C65EDB17E2617F00767435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A222858617E5388200117223 /* yay.mp3 in Resources */,
+				A2C65EF917E2617F00767435 /* Images.xcassets in Resources */,
+				A2C65EEB17E2617F00767435 /* InfoPlist.strings in Resources */,
+				A2C65EF417E2617F00767435 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C65EFC17E2617F00767435 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A222858717E5388200117223 /* yay.mp3 in Resources */,
+				A2C65F0A17E2617F00767435 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2C65ED917E2617F00767435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C65EED17E2617F00767435 /* main.m in Sources */,
+				A2C65EF117E2617F00767435 /* D1AppDelegate.m in Sources */,
+				A2E34E4F17E3B609003B0E4B /* BPJBubble.m in Sources */,
+				A2C65F1917E286D300767435 /* CMMotionManager+Shared.m in Sources */,
+				A2E34E4B17E37271003B0E4B /* UIColor+RandomCustomColor.m in Sources */,
+				A2C65EF717E2617F00767435 /* D1ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C65EFA17E2617F00767435 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C65F1A17E286D300767435 /* CMMotionManager+Shared.m in Sources */,
+				A2E34E4C17E37271003B0E4B /* UIColor+RandomCustomColor.m in Sources */,
+				A2E34E5017E3B609003B0E4B /* BPJBubble.m in Sources */,
+				A2C65F0C17E2617F00767435 /* BPJBubblesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2C65F0417E2617F00767435 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2C65EDC17E2617F00767435 /* BPJBubbles */;
+			targetProxy = A2C65F0317E2617F00767435 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2C65EE917E2617F00767435 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C65EEA17E2617F00767435 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A2C65EF217E2617F00767435 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C65EF317E2617F00767435 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2C65F0817E2617F00767435 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2C65F0917E2617F00767435 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2C65F0D17E2617F00767435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2C65F0E17E2617F00767435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2C65F1017E2617F00767435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BPJBubbles/BPJBubbles-Prefix.pch";
+				INFOPLIST_FILE = "BPJBubbles/BPJBubbles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A2C65F1117E2617F00767435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BPJBubbles/BPJBubbles-Prefix.pch";
+				INFOPLIST_FILE = "BPJBubbles/BPJBubbles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A2C65F1317E2617F00767435 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BPJBubbles.app/BPJBubbles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BPJBubbles/BPJBubbles-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BPJBubblesTests/BPJBubblesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A2C65F1417E2617F00767435 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BPJBubbles.app/BPJBubbles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BPJBubbles/BPJBubbles-Prefix.pch";
+				INFOPLIST_FILE = "BPJBubblesTests/BPJBubblesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2C65ED817E2617F00767435 /* Build configuration list for PBXProject "BPJBubbles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C65F0D17E2617F00767435 /* Debug */,
+				A2C65F0E17E2617F00767435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C65F0F17E2617F00767435 /* Build configuration list for PBXNativeTarget "BPJBubbles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C65F1017E2617F00767435 /* Debug */,
+				A2C65F1117E2617F00767435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2C65F1217E2617F00767435 /* Build configuration list for PBXNativeTarget "BPJBubblesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2C65F1317E2617F00767435 /* Debug */,
+				A2C65F1417E2617F00767435 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2C65ED517E2617F00767435 /* Project object */;
+}
